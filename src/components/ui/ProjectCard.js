@@ -68,7 +68,7 @@ const ProjectCard = ({
           >
             {/* TODO: improve this (Json obj) */}
             {languagesOrTools.map((item) => (
-              <SecondaryBadge icon={item[0]} text={item[1]} />
+              <SecondaryBadge key={item[1]} icon={item[0]} text={item[1]} />
             ))}
           </Box>
         )}

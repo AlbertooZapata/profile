@@ -25,7 +25,7 @@ const LinksInformation = () => {
   };
   const handleResumeClick = () => {
     window.location.href =
-      "https://drive.google.com/file/d/16_vuqD61RL5QtsJORNtQjUrVS5O2n8hj/view?usp=sharing";
+      "/Resume-Jose-Alberto-Zapata-Telles.pdf";
   };
 
   return (
